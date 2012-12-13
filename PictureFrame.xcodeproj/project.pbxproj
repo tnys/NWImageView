@@ -18,6 +18,8 @@
 		DB33065C167A6F8500F55EA9 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DB33065B167A6F8500F55EA9 /* Default-568h@2x.png */; };
 		DB33065F167A6F8500F55EA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB33065E167A6F8500F55EA9 /* ViewController.m */; };
 		DB330662167A6F8500F55EA9 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB330660167A6F8500F55EA9 /* ViewController.xib */; };
+		DB33066A167A6FD700F55EA9 /* NWImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = DB330669167A6FD700F55EA9 /* NWImageView.m */; };
+		DB33066C167A758300F55EA9 /* 200.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = DB33066B167A758300F55EA9 /* 200.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,9 @@
 		DB33065D167A6F8500F55EA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		DB33065E167A6F8500F55EA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DB330661167A6F8500F55EA9 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		DB330668167A6FD700F55EA9 /* NWImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NWImageView.h; sourceTree = "<group>"; };
+		DB330669167A6FD700F55EA9 /* NWImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NWImageView.m; sourceTree = "<group>"; };
+		DB33066B167A758300F55EA9 /* 200.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 200.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +94,8 @@
 				DB33065E167A6F8500F55EA9 /* ViewController.m */,
 				DB330660167A6F8500F55EA9 /* ViewController.xib */,
 				DB33064C167A6F8500F55EA9 /* Supporting Files */,
+				DB330668167A6FD700F55EA9 /* NWImageView.h */,
+				DB330669167A6FD700F55EA9 /* NWImageView.m */,
 			);
 			path = PictureFrame;
 			sourceTree = "<group>";
@@ -96,6 +103,7 @@
 		DB33064C167A6F8500F55EA9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DB33066B167A758300F55EA9 /* 200.jpeg */,
 				DB33064D167A6F8500F55EA9 /* PictureFrame-Info.plist */,
 				DB33064E167A6F8500F55EA9 /* InfoPlist.strings */,
 				DB330651167A6F8500F55EA9 /* main.m */,
@@ -163,6 +171,7 @@
 				DB33065A167A6F8500F55EA9 /* Default@2x.png in Resources */,
 				DB33065C167A6F8500F55EA9 /* Default-568h@2x.png in Resources */,
 				DB330662167A6F8500F55EA9 /* ViewController.xib in Resources */,
+				DB33066C167A758300F55EA9 /* 200.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +185,7 @@
 				DB330652167A6F8500F55EA9 /* main.m in Sources */,
 				DB330656167A6F8500F55EA9 /* AppDelegate.m in Sources */,
 				DB33065F167A6F8500F55EA9 /* ViewController.m in Sources */,
+				DB33066A167A6FD700F55EA9 /* NWImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
